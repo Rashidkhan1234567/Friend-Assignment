@@ -7,25 +7,26 @@
 function subtract(num1, num2) {
     var num1 = prompt("Enter first number: ")
     var num2 = prompt("Enter second number: ")
-    alert(num1 - num2)
+    alert(`${num1} - ${num2} = ${num1-num2}`)
 }
 
 function multiplicate(num1, num2) {
     var num1 = prompt("Enter first number: ")
     var num2 = prompt("Enter second number: ")
-    alert(num1 * num2)
+    alert(`${num1} x ${num2} = ${num1*num2}`)
 }
 
 function divide(num1, num2) {
     var num1 = prompt("Enter first number: ")
     var num2 = prompt("Enter second number: ")
-    alert(num1 / num2)
+    alert(`${num1} / ${num2} = ${num1/num2}`)
+
 }
 
 function remainder(num1, num2) {
     var num1 = prompt("Enter first number: ")
     var num2 = prompt("Enter second number: ")
-    alert(num1 % num2)
+    alert(`${num1} % ${num2} = ${num1%num2}`)
 }
 
 // 2. Write a function that takes a single parameter and returns its data type
